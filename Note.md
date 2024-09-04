@@ -68,3 +68,52 @@ L'action est la partie FAIRE de l'automatisation. Les actions sont les événeme
 ### Les Zaps pré-fabriqués et les tâches
 
 Il existe des Zaps pré-fabriqués (appelés Zap templates) qui permettent de démarrer rapidement. Une fois le Zap activé, il automatisera les tâches selon les actions configurées. Rappel : Chaque action réussie effectuée par un Zap est appelée une tâche. Les tâches sont toujours associées aux actions réussies.
+
+## Elementor
+
+### Créer une Section et une Colonne
+
+#### Ajouter une Section
+1. Dans l'éditeur Elementor, cliquer sur le bouton **Ajouter une section** (+) situé au-dessus ou en dessous d'une section existante.
+2. Choisir la structure de la section (nombre de colonnes).
+
+#### Ajouter une Colonne
+1. Dans une section existante, cliquer sur le bouton **Ajouter une colonne** (+) à l'intérieur de la section.
+2. Choisir le nombre de colonnes que vous souhaitez ajouter.
+
+#### Configurer une Section ou une Colonne
+1. Cliquer sur l'icône du **stylo** pour ouvrir les paramètres de la section ou de la colonne.
+2. Modifier les paramètres tels que la largeur, la hauteur, les marges, les espacements, et les couleurs de fond.
+3. Cliquer sur **Mettre à jour** pour enregistrer les modifications.
+
+### Gérer les Widgets dans Elementor
+
+#### Ajouter un Widget
+1. Ouvrir l'éditeur Elementor en cliquant sur **Modifier avec Elementor** pour la page ou l'article souhaité.
+2. Dans le panneau de gauche, faire défiler la liste des widgets disponibles.
+3. Glisser-déposer le widget désiré sur la zone de la page où vous souhaitez l'ajouter.
+
+#### Configurer un Widget
+1. Cliquer sur le widget ajouté pour ouvrir ses options de configuration dans le panneau de gauche.
+2. Modifier les paramètres selon vos besoins (texte, image, couleur, taille, etc.).
+3. Cliquer sur **Mettre à jour** pour enregistrer les modifications.
+
+#### Supprimer un Widget
+1. Sélectionner le widget que vous souhaitez supprimer en cliquant dessus.
+2. Cliquer sur l'icône de la corbeille dans le coin supérieur droit du widget.
+3. Confirmer la suppression si nécessaire.
+
+### Modifier le CSS personnalisé dans Elementor
+
+#### Ajouter du CSS personnalisé
+1. Une fois dans l'éditeur Elementor, cliquer sur l'icône en bas à gauche pour ouvrir le menu des paramètres du site.
+2. Sélectionner **Paramètres du site**.
+3. Aller à la section **CSS personnalisé**.
+
+### Changer la police dans Elementor
+
+#### Modifier la police d'un élément spécifique
+1. Sélectionner l'élément dont vous voulez changer la police (par exemple, un titre, un paragraphe, etc.).
+2. Aller dans le panneau de gauche, sous l'onglet **Style**.
+3. Trouver la section **Typographie** et cliquer dessus pour l'ouvrir.
+4. Dans les options de typographie, cliquer sur **Famille de police** pour choisir une nouvelle police. Vous pouvez sélectionner une police de Google Fonts ou ajouter une police personnalisée en utilisant la fonction **Ajouter une police**.
