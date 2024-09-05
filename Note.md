@@ -69,6 +69,67 @@ L'action est la partie FAIRE de l'automatisation. Les actions sont les événeme
 
 Il existe des Zaps pré-fabriqués (appelés Zap templates) qui permettent de démarrer rapidement. Une fois le Zap activé, il automatisera les tâches selon les actions configurées. Rappel : Chaque action réussie effectuée par un Zap est appelée une tâche. Les tâches sont toujours associées aux actions réussies.
 
+### ChatGPT et Zapier
+
+#### Instructions Personnalisées dans ChatGPT
+
+**Qu'est-ce que les Instructions Personnalisées ?**
+- Permettent de fournir des informations de contexte et de spécifier les formats de réponse.
+- Disponibles pour les plans gratuits et payants.
+
+**Comment Ajouter des Instructions Personnalisées :**
+1. Ouvrir ChatGPT et cliquer sur votre profil.
+2. Sélectionner "Instructions personnalisées."
+3. Saisir les instructions pour le contexte et le style de réponse.
+4. Activer pour les nouvelles conversations et cliquer sur "Sauvegarder."
+
+**Limitations :**
+- Une seule série d'instructions personnalisées peut être active à la fois.
+
+#### Créer Votre Propre ChatGPT Personnalisé
+
+**Utilisation de GPT Builder :**
+- Disponible pour les utilisateurs de ChatGPT Plus et Entreprise.
+- Permet de créer plusieurs chatbots personnalisés avec des fichiers de connaissance adaptés.
+
+**Étapes pour Créer un GPT Personnalisé :**
+1. Ouvrir ChatGPT, cliquer sur votre profil et sélectionner "Mes GPT."
+2. Cliquer sur "Créer un GPT."
+3. Saisir des directives et affiner les résultats avec le constructeur de GPT.
+4. Configurer les options avancées, télécharger des fichiers de connaissance et définir des actions.
+5. Cliquer sur "Créer" et choisir les options de partage.
+
+**Remarque :**
+- Les GPT personnalisés peuvent également être créés via API avec des connaissances en codage étendues.
+
+#### Créer des Chatbots avec Zapier
+
+**Pourquoi Utiliser des Chatbots Zapier ?**
+- Intègre l'IA avec l'automatisation pour synchroniser les données entre les applications.
+
+**Comment Créer un Chatbot Zapier :**
+1. Aller sur [Zapier Chatbots](https://zapier.com/app/chatbots).
+2. Cliquer sur "+Créer" et configurer l'authentification OpenAI.
+3. Saisir des directives et télécharger des sources de connaissance.
+4. Configurer les flux de travail automatisés (Bouton Zap, Copier la réponse, Collecter des infos).
+5. Tester le chatbot et partager via un lien public ou une intégration sur le site web.
+
+**Modèles Pré-fabriqués :**
+- Chatbot IA pour le Support Commercial
+- Chat IA pour la Génération de Leads
+
+#### Utiliser Zapier Central
+
+**Qu'est-ce que Zapier Central ?**
+- Permet de former des assistants IA pour gérer des tâches à travers diverses applications depuis un espace de travail unifié.
+
+**Étapes pour Utiliser Zapier Central :**
+1. S'inscrire sur [Zapier Central](https://central.zapier.com).
+2. Cliquer sur "+ Nouvel assistant" et le nommer.
+3. Définir les comportements et actions instantanées.
+4. Ajouter des sources de données pour l'assistant.
+5. Interagir avec l'assistant pour vérifier son bon fonctionnement.
+
 ## Elementor
 
 ### Créer une Section et une Colonne
@@ -148,3 +209,122 @@ Les **webhooks** envoient des données en temps réel à une URL lorsqu'un évé
 3. Configurer l'URL de réception et personnaliser les données.
 4. Tester le webhook.
 
+### Création et Gestion des Sous-Comptes dans GoHighLevel
+
+#### Création d'un Sous-Compte
+Créer un sous-compte dans GoHighLevel est simple. Suivez ces étapes :
+
+1. **Connexion** : Connectez-vous à votre compte GoHighLevel.
+2. **Accéder aux Paramètres** : Allez dans la section "Settings".
+3. **Créer un Nouveau Sous-Compte** :
+   - Cliquez sur "Sub Accounts" puis sur "Create New Sub Account".
+4. **Remplir les Détails** :
+   - Nom du client, email, sous-domaine souhaité.
+   - Téléchargez le logo du client et personnalisez les couleurs.
+5. **Définir le Niveau d'Accès** :
+   - Choisissez le niveau d'accès pour le client et son équipe (accès complet ou restreint).
+6. **Créer le Sous-Compte** : Cliquez sur "Create Sub Account".
+
+
+#### Bonnes Pratiques pour Gérer les Sous-Comptes
+
+1. **Organisation** :
+   - Créez une convention de nommage pour faciliter l'identification des clients.
+
+2. **Définir des Attentes Claires** :
+   - Informez vos clients des fonctionnalités disponibles dans leur sous-compte pour éviter toute confusion.
+
+3. **Réviser Régulièrement les Niveaux d'Accès** :
+   - Ajustez les permissions en fonction de l'évolution des besoins des clients.
+
+4. **Former les Clients** :
+   - Fournissez des supports de formation ou organisez des webinaires pour aider les clients à utiliser efficacement leur sous-compte.
+
+5. **Rester Informé** :
+   - Suivez les mises à jour et nouvelles fonctionnalités de GoHighLevel pour tirer parti des nouvelles possibilités.
+
+## OpenAI
+
+### Prompt Engineering
+
+#### Qu'est-ce que le Prompt Engineering ?
+
+Le *Prompt Engineering* est l'art de concevoir des instructions efficaces pour interagir avec les modèles de langage comme GPT-3 ou GPT-4. Il s'agit de formuler des questions ou des requêtes de manière à obtenir des réponses précises et pertinentes.
+
+#### Objectifs du Prompt Engineering
+
+- **Clarté** : Rédiger des prompts clairs pour éviter des réponses ambiguës.
+- **Concision** : Être concis tout en fournissant suffisamment de contexte.
+- **Spécificité** : Inclure des détails spécifiques pour guider le modèle vers une réponse plus ciblée.
+
+#### Techniques de Prompt Engineering
+
+##### 1. **Instructions Directes**
+
+- Formuler des questions ou des commandes de manière directe.
+- Exemple : "Explique les principes de base du marketing digital."
+
+##### 2. **Contextualisation**
+
+- Fournir un contexte supplémentaire pour aider le modèle à comprendre la question.
+- Exemple : "En tant que spécialiste en marketing, explique les principes de base du marketing digital."
+
+##### 3. **Exemples Concrets**
+
+- Donner des exemples pour illustrer le type de réponse souhaitée.
+- Exemple : "Donne-moi une réponse similaire à celle-ci : 'Le marketing digital est...'."
+
+##### 4. **Questions Ouvertes**
+
+- Poser des questions ouvertes pour encourager des réponses plus détaillées.
+- Exemple : "Quels sont les avantages et les inconvénients du marketing digital ?"
+
+#### Meilleures Pratiques
+
+- **Tester** : Essayer différents prompts pour voir lesquels donnent les meilleurs résultats.
+- **Affiner** : Ajuster les prompts en fonction des réponses obtenues.
+- **Éviter les Ambiguïtés** : Clarifier les termes ou les concepts qui pourraient être mal interprétés.
+
+### Quand utiliser le Fine-Tuning
+
+Le fine-tuning est le processus d'ajustement d'un modèle de langage pré-entraîné pour des tâches ou des domaines spécifiques. Voici les situations dans lesquelles il est pertinent d'utiliser le fine-tuning :
+
+#### 1. **Applications Spécifiques**
+
+- **Domaines de Connaissance** : Lorsque vous avez besoin que le modèle comprenne des termes techniques ou des jargon spécifique à un domaine.
+  - *Exemple* : Fine-tuning pour un modèle de support technique dans le domaine de la médecine.
+
+- **Contenu Spécifique** : Si le modèle doit générer ou comprendre du contenu très spécifique à un secteur.
+  - *Exemple* : Création de contenu marketing pour une industrie particulière.
+
+#### 2. **Amélioration de la Performance**
+
+- **Réponses Plus Précises** : Lorsque les réponses générées par le modèle pré-entraîné ne sont pas suffisamment précises ou pertinentes.
+  - *Exemple* : Améliorer la précision des réponses d’un assistant virtuel pour un secteur spécifique.
+
+- **Adaptation aux Besoins des Utilisateurs** : Pour répondre aux besoins ou préférences spécifiques des utilisateurs.
+  - *Exemple* : Ajuster le modèle pour qu'il reflète le style ou le ton souhaité dans les communications.
+
+#### 3. **Personnalisation de la Langue**
+
+- **Langue ou Dialecte** : Lorsque le modèle doit comprendre ou générer du texte dans une langue ou un dialecte moins courant ou spécifique.
+  - *Exemple* : Fine-tuning pour le dialecte régional ou une langue rare.
+
+- **Culture Locale** : Pour refléter des nuances culturelles ou des références locales spécifiques.
+  - *Exemple* : Adapter le modèle pour mieux comprendre des idiomes ou des références culturelles locales.
+
+#### 4. **Tâches Spécifiques**
+
+- **Classification ou Régression** : Lorsque le modèle doit accomplir des tâches spécifiques comme la classification de texte ou la prévision.
+  - *Exemple* : Fine-tuning pour la classification des sentiments dans des avis clients.
+
+- **Réponses Structurées** : Pour générer des réponses avec une structure spécifique ou dans un format précis.
+  - *Exemple* : Génération de rapports structurés ou de résumés.
+
+#### 5. **Amélioration de la Robustesse**
+
+- **Réduction des Biais** : Pour ajuster le modèle afin de réduire les biais présents dans les réponses générées.
+  - *Exemple* : Fine-tuning pour limiter les biais dans les recommandations.
+
+- **Augmentation de la Résilience** : Pour améliorer la capacité du modèle à gérer des cas d’utilisation inhabituels ou extrêmes.
+  - *Exemple* : Préparer le modèle à gérer des questions très spécifiques ou complexes.
