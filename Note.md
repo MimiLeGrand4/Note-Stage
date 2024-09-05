@@ -117,3 +117,34 @@ Il existe des Zaps pré-fabriqués (appelés Zap templates) qui permettent de d�
 2. Aller dans le panneau de gauche, sous l'onglet **Style**.
 3. Trouver la section **Typographie** et cliquer dessus pour l'ouvrir.
 4. Dans les options de typographie, cliquer sur **Famille de police** pour choisir une nouvelle police. Vous pouvez sélectionner une police de Google Fonts ou ajouter une police personnalisée en utilisant la fonction **Ajouter une police**.
+
+## HighLevel
+
+### Workflows
+Les **workflows** automatisent des processus comme l'envoi d'emails, de SMS, ou l'ajout de contacts à des campagnes.
+
+#### Éléments clés :
+- **Déclencheurs** : Événements (ex. : formulaire soumis) qui lancent le workflow.
+- **Actions** : Tâches exécutées (ex. : envoi d'email).
+- **Conditions** : Logique conditionnelle pour personnaliser le parcours.
+
+#### Étapes de création :
+1. Accéder à la section Workflows.
+2. Créer un workflow avec un déclencheur.
+3. Définir les actions et conditions.
+4. Enregistrer et activer.
+
+### Webhooks
+Les **webhooks** envoient des données en temps réel à une URL lorsqu'un événement survient.
+
+#### Fonctionnalités :
+- **Requête HTTP POST** vers une URL tierce.
+- **Données en temps réel** pour synchroniser les systèmes.
+- **Personnalisation** des informations envoyées (contact, événement, etc.).
+
+### Intégration des Webhooks dans un Workflow
+1. Ajouter une action dans le workflow.
+2. Sélectionner "Envoyer un Webhook".
+3. Configurer l'URL de réception et personnaliser les données.
+4. Tester le webhook.
+
